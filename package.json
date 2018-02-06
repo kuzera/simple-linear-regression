@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kuzera/simple-linear-regression/issues"
   },
-  "homepage": "https://github.com/kuzera/simple-linear-regression#readme"
+  "homepage": "https://github.com/kuzera/simple-linear-regression#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
