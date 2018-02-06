@@ -4,7 +4,7 @@
   "description": "Simple Linear Regression",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'jade z testami' && ava --verbose && eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/kuzera/simple-linear-regression#readme",
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^0.25.0",
+    "eslint-config-helmut": "^3.0.0"
+  },
+  "dependencies": {
+    "@elstats/covariance": "^1.1.0",
+    "stats-mean": "^1.0.0",
+    "stats-variance": "^1.0.0"
   }
 }
